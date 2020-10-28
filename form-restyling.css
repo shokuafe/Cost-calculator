@@ -1,0 +1,138 @@
+div {
+  /* border: 0.2px solid red; */
+}
+
+h2 {
+  text-align: center;
+  font-family: "Roboto Slab";
+  src: url(Q:/Important docs/Candel/Atom/Site/Fonts/Roboto Bolt.ttf);
+}
+
+.box {
+  height: auto;
+  width: auto;
+  font-family: "Montserrat";
+  color: black;
+  src: url(Q:/Important docs/Candel/Atom/Site/Fonts/MontserratRegular.ttf);
+}
+
+.box-inside {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px ;
+  /* grid-template-rows: 100px; */
+  justify-content: center;
+  height: 750px;
+  width: 1200px;
+  margin: auto;
+  top: 5%;
+
+  background-color: #9cc6ff;
+  border: 4px;
+  border-color:#f7ff8b;
+  border-radius: 20px;
+}
+
+input[type="text"] {
+  margin-top: 7%;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  -moz-appearance: none;
+  /* border: 2px; */
+}
+
+textarea {
+  border-radius: 5px;
+  outline: none;
+	-moz-appearance: none;
+  border-color: black;
+}
+
+.summ {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+input[type="submit"] {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 11%;
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid red;
+  border-color: black;
+  transition: all .4s ease;
+  font-family: "Roboto Slab";
+  src: url(Q:/Important docs/Candel/Atom/Site/Fonts/Roboto Bolt.ttf);
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px;
+}
+
+.clicked {
+  font-size: 40px;
+  background-color: black;
+  color: white;
+}
+
+input[type="radio"] {
+  content: "";
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+}
+
+option {
+  width: 200px;
+  font-family: "Montserrat";
+  color: black;
+  src: url(Q:/Important docs/Candel/Atom/Site/Fonts/MontserratRegular.ttf);
+}
+
+textarea[name="comment"] {
+  margin-top: 7%;
+}
+.city-out {
+
+}
+
+.country {
+
+}
+
+.how-many {
+
+}
+
+.how-many-childs {
+
+}
+
+.visit-city {
+
+}
+
+.options {
+
+}
+
+.hostel {
+
+}
+
+.food {
+
+}
+
+.class-of-plane {
+
+}
+
+.total-price {
+
+}
